@@ -1,0 +1,10 @@
+network:
+    version: 2
+    renderer: networkd
+    wifis:
+        wlp2s0b1:
+            dhcp4: no
+            dhcp6: no
+            addresses: [192.168.14.200/24]
+            nameservers:
+                addresses: [8.8.8.8, 1.1.1.1]
